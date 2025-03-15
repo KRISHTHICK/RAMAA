@@ -1,0 +1,1 @@
+Hi Everyone welcoming you on Project RAMAA - [Research And Mentor AI Agent]. Currently this project is in Intial phase you can view complete outline structure of this project by going through other files.
