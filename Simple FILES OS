@@ -1,0 +1,27 @@
+AI-Project-Genesis/
+├── docs/
+│   ├── project_overview.md
+│   ├── flowchart.md
+│   ├── abstract.md
+│   ├── annexure.md
+├── src/
+│   ├── agent/
+│   │   ├── search_engine.py
+│   │   ├── huggingface.py
+│   │   ├── research_papers.py
+│   │   ├── linkedin.py
+│   │   ├── llm_interaction.py
+│   │   ├── mentor_selection.py
+│   │   ├── project_management.py
+│   │   ├── analytics.py
+│   ├── utils/
+│   │   ├── config.py
+│   │   ├── helpers.py
+├── notebooks/
+│   ├── exploratory_analysis.ipynb
+│   ├── llm_prompt_testing.ipynb
+├── tests/
+│   ├── test_search_engine.py
+│   ├── test_llm_interaction.py
+├── requirements.txt
+├── README.md
