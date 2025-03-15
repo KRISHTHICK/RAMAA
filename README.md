@@ -1,4 +1,4 @@
-**Hi Everyone** welcoming you on **Project RAMAA - [Research And Mentor AI Agent]**. Currently this project is in Intial phase you can view complete outline structure of this project by going through other files.
+**Hi Everyone** welcoming you on **Project RAMAA - [Research And Mentor AI Agent]**. Currently this project is in **Initial phase** you can view complete outline structure of this project by going through other files.
 
 **Title: "RAMAA : Research And Mentor AI Agent"**
 
