@@ -1,8 +1,8 @@
-Hi Everyone welcoming you on Project RAMAA - [Research And Mentor AI Agent]. Currently this project is in Intial phase you can view complete outline structure of this project by going through other files.
+**Hi Everyone** welcoming you on **Project RAMAA - [Research And Mentor AI Agent]**. Currently this project is in Intial phase you can view complete outline structure of this project by going through other files.
 
-Title: "RAMAA : Research And Mentor AI Agent"
+**Title: "RAMAA : Research And Mentor AI Agent"**
 
-Abstract of Problem Statement:
+**Abstract of Problem Statement:**
 
 The rapid evolution of artificial intelligence and related technologies presents both immense opportunities and significant challenges for aspiring innovators. Navigating the vast landscape of research, emerging models, and expert guidance can be overwhelming, hindering the development of impactful projects. Many individuals struggle to identify relevant research areas, connect with experienced mentors, and effectively translate theoretical concepts into practical applications. This problem is particularly acute in the AI field, where the pace of innovation demands continuous learning and adaptation.
 
@@ -17,11 +17,11 @@ Generate project artifacts: by automatically creating GitHub repositories, blogs
 Analyze project impact: By providing analytics on cost, time, technology, and real-world applicability, the agent can help users understand the broader implications of their projects.
 This AI-powered project genesis system aims to empower individuals to develop impactful AI projects by providing them with the tools, resources, and mentorship they need to succeed.
 
-2. Project Documentation
+**2. Project Documentation**
 
-Document: Project Overview and Flowchart
+**Document: Project Overview and Flowchart**
 
-Project Overview:
+**Project Overview:**
 
 This project aims to develop an AI agent that automates the entire process of creating an AI project, from initial topic selection to final deployment and analysis. The agent will leverage advanced search capabilities, natural language processing, and network analysis to:
 
@@ -34,7 +34,7 @@ Flowchart:
 
 Code snippet
 
-graph TD
+**graph TD**
     A[User Input: Project Idea/Domain] --> B{LLM Topic Suggestions};
     B --> C{User Selects Topic};
     C --> D[Search Engine, Hugging Face, Research Papers];
@@ -60,7 +60,8 @@ graph TD
     U -- No --> T;
     V --> W[Share Final Report & Analytics];
     W --> Z[End];
-3. GitHub Repository Structure
+
+**3. GitHub Repository Structure**
 
 AI-Project-Genesis/
 ├── docs/
@@ -89,7 +90,8 @@ AI-Project-Genesis/
 │   ├── test_llm_interaction.py
 ├── requirements.txt
 ├── README.md
-4. Key Components and Technologies
+
+**4. Key Components and Technologies**
 
 Search Engine Integration: Utilizing APIs for Google Search, Bing, etc.
 Hugging Face API: For accessing and utilizing pre-trained LLMs and models.
@@ -104,7 +106,8 @@ Data Analytics: For project cost, time, and impact analysis.
 Cloud Platforms: AWS, Google Cloud, or Azure for deployment.
 Python: Main programming language.
 Libraries: Requests, Beautiful Soup, Transformers, Pandas, NumPy, etc.
-5. Implementation Steps
+
+**5. Implementation Steps**
 
 Environment Setup: Setting up development environment and installing required libraries.
 Search Engine and API Integration: Implementing search functionalities.
@@ -114,7 +117,8 @@ Project Management: Developing the project management module for tracking progre
 Analytics and Reporting: Implementing analytics modules for project impact analysis.
 User Interface (Optional): Developing a user interface for ease of use.
 Testing and Deployment: Testing the agent and deploying it to a cloud platform.
-6. Continuous Improvement and Updates
+
+**6. Continuous Improvement and Updates**
 
 Implement a feedback loop to continuously improve the agent's performance.
 Regularly update the agent with the latest AI models and technologies.
