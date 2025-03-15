@@ -1,0 +1,26 @@
+graph TD
+    A[User Input: Project Idea/Domain] --> B{LLM Topic Suggestions};
+    B --> C{User Selects Topic};
+    C --> D[Search Engine, Hugging Face, Research Papers];
+    D --> E[Identify Top 3 LLMs & Current Tech];
+    E --> F[Prompt LLMs for Project Ideas];
+    F --> G{User Selects Best Idea};
+    G --> H[Search for Top AI/Tech Experts (PhD, MAANG)];
+    H --> I[LinkedIn, Research Paper Analysis];
+    I --> J[Identify & Follow Experts];
+    J --> K[Attempt Contact for Mentorship];
+    K --> L{Positive Response?};
+    L -- Yes --> M[Elaborate Project Details & Schedule Meeting];
+    L -- No --> N[Thank & Unfollow];
+    M --> O{Meeting Confirmed?};
+    O -- Yes --> P[Discuss Abstract & Obtain Mentor Feedback];
+    O -- No --> K;
+    P --> Q[Finalize Abstract & Annexure];
+    Q --> R[Create GitHub Repo & Blog];
+    R --> S[Generate Resume Lines];
+    S --> T[Continuous Project Support & Tech Updates];
+    T --> U{Project Completed?};
+    U -- Yes --> V[Final Project Structure & Analytics];
+    U -- No --> T;
+    V --> W[Share Final Report & Analytics];
+    W --> Z[End];
