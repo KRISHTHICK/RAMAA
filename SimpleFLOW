@@ -1,0 +1,12 @@
+flowchart TD
+  A[Start: User Input] --> B[Search Trends/Papers]
+  B --> C[Query Top 3 LLMs for Ideas]
+  C --> D{User Selects Topic}
+  D --> E[Scrape MIT/Stanford/MAANG Mentors]
+  E --> F[Auto-Send Connection Requests]
+  F --> G{Positive Reply?}
+  G -->|Yes| H[Share Abstract & Schedule Meeting]
+  G -->|No| I[Archive Mentor]
+  H --> J[Build Project with Trend Updates]
+  J --> K[Generate GitHub/Blog/Resume]
+  K --> L[Weekly Analytics Report]
